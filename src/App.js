@@ -1,11 +1,11 @@
 
 import './App.css'; 
-import Agreement from 'trustified_escrow_agreement_package/dist/agreements/Agreement';
+import  AppTest from 'trustified_escrow_agreement_package/dist/App';
 
 function App() {
   return (
     <div className="App">  
-      <Agreement/>
+      <AppTest/>
     </div>
   );
 }
